@@ -13,8 +13,8 @@
 
 <body>
 <div class="container p-5 my-5 bg-dark text-white">
-        <h1>Database show data on Web</h1>
-        <p>6402202057002 Mrs.Ranchida Chomphungam</p>
+        <h1>Database show data on Web:Lesson 2</h1>
+        <p>lesson2</p>
     </div>
     <?php
     require 'connect.php';
@@ -25,16 +25,16 @@
     ?>
 
     <div class="container mt-3">
-        <h2>Section Data</h2>
+        <h2>Lesson 2 : แสดงข้อมูลเฉพาะ SECT_TELEPHONE และ SECT_NAME โดยเรียงจาก SECT_NAME จาก A-Z</h2>
         <p>Show section data and internal line phone</p>
         <table class="table table-hover">
         <div class="btn-group btn-group-lg">
-  <button type="button" class="btn btn-warning" onclick="window.location.href ='lesson1.php'">Lesson 1 : แสดงข้อมูลทั้งหมดโดยเรียงจาก SECT_ID จากมากไปหาน้อย
+  <button type="button" class="btn btn-warning" onclick="window.location.href ='index.php'">กลับไปยังหน้าหลัก
 
 </button>
-  <button type="button" class="btn btn-warning"onclick="window.location.href ='lesson1.php'">Lesson 2 : แสดงข้อมูลเฉพาะ SECT_TELEPHONE และ SECT_NAME โดยเรียงจาก SECT_NAME จาก A-Z
+  <button type="button" class="btn btn-warning"onclick="window.location.href ='lesson1.php'">Lesson 1 : แสดงข้อมูลทั้งหมดโดยเรียงจาก SECT_ID จากมากไปหาน้อย
 </button>
-  <button type="button" class="btn btn-warning"onclick="window.location.href ='lesson1.php'">Lesson 3 : แสดงข้อมูลทั้งหมด โดยเลือกเฉพาะที่ SECT_TELEPHONE มีเลข 12 และเรียงข้อมูลจาก SECT_NAME จาก Z-A
+  <button type="button" class="btn btn-warning"onclick="window.location.href ='lesson3.php'">Lesson 3 : แสดงข้อมูลทั้งหมด โดยเลือกเฉพาะที่ SECT_TELEPHONE มีเลข 12 และเรียงข้อมูลจาก SECT_NAME จาก Z-A
 </button>
 </div>
             <thead>
